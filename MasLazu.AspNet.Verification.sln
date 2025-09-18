@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AC746CB-8BFA-4872-A4B6-A90DE6325361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasLazu.AspNet.Verification.Abstraction", "MasLazu.AspNet.Verification.Abstraction", "{FD0116DB-1534-4276-AAB0-103A5ED62236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.Verification.Abstraction", "src\MasLazu.AspNet.Verification.Abstraction\MasLazu.AspNet.Verification.Abstraction.csproj", "{F802DFE0-7540-4C4F-836E-2F445092040E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasLazu.AspNet.Verification.Domain", "MasLazu.AspNet.Verification.Domain", "{230AF7E9-3C04-4F64-974E-5B06C73FC25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.Verification.Domain", "src\MasLazu.AspNet.Verification.Domain\MasLazu.AspNet.Verification.Domain.csproj", "{18801EAD-2E4F-4270-B98F-AA7789794B8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasLazu.AspNet.Verification.EfCore", "MasLazu.AspNet.Verification.EfCore", "{A1FA266B-A4CB-4A23-8FD6-EBE83BC560F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.Verification.EfCore", "src\MasLazu.AspNet.Verification.EfCore\MasLazu.AspNet.Verification.EfCore.csproj", "{94ED186B-30A1-4CEA-91F1-40B921FE79B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasLazu.AspNet.Verification", "MasLazu.AspNet.Verification", "{94FCD7E5-8FB3-402A-B757-798F205D7860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.Verification", "src\MasLazu.AspNet.Verification\MasLazu.AspNet.Verification.csproj", "{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasLazu.AspNet.Verification.Endpoint", "MasLazu.AspNet.Verification.Endpoint", "{5E7B6F27-BA07-42B2-9B09-E723B3D7A766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasLazu.AspNet.Verification.Endpoint", "src\MasLazu.AspNet.Verification.Endpoint\MasLazu.AspNet.Verification.Endpoint.csproj", "{6809D8F1-D29B-4FBF-B907-6F6C322025C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F802DFE0-7540-4C4F-836E-2F445092040E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F802DFE0-7540-4C4F-836E-2F445092040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F802DFE0-7540-4C4F-836E-2F445092040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F802DFE0-7540-4C4F-836E-2F445092040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18801EAD-2E4F-4270-B98F-AA7789794B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18801EAD-2E4F-4270-B98F-AA7789794B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18801EAD-2E4F-4270-B98F-AA7789794B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18801EAD-2E4F-4270-B98F-AA7789794B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ED186B-30A1-4CEA-91F1-40B921FE79B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ED186B-30A1-4CEA-91F1-40B921FE79B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ED186B-30A1-4CEA-91F1-40B921FE79B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ED186B-30A1-4CEA-91F1-40B921FE79B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6809D8F1-D29B-4FBF-B907-6F6C322025C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6809D8F1-D29B-4FBF-B907-6F6C322025C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6809D8F1-D29B-4FBF-B907-6F6C322025C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6809D8F1-D29B-4FBF-B907-6F6C322025C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD0116DB-1534-4276-AAB0-103A5ED62236} = {0AC746CB-8BFA-4872-A4B6-A90DE6325361}
+		{F802DFE0-7540-4C4F-836E-2F445092040E} = {FD0116DB-1534-4276-AAB0-103A5ED62236}
+		{230AF7E9-3C04-4F64-974E-5B06C73FC25B} = {0AC746CB-8BFA-4872-A4B6-A90DE6325361}
+		{18801EAD-2E4F-4270-B98F-AA7789794B8B} = {230AF7E9-3C04-4F64-974E-5B06C73FC25B}
+		{A1FA266B-A4CB-4A23-8FD6-EBE83BC560F5} = {0AC746CB-8BFA-4872-A4B6-A90DE6325361}
+		{94ED186B-30A1-4CEA-91F1-40B921FE79B6} = {A1FA266B-A4CB-4A23-8FD6-EBE83BC560F5}
+		{94FCD7E5-8FB3-402A-B757-798F205D7860} = {0AC746CB-8BFA-4872-A4B6-A90DE6325361}
+		{1D8EE44A-D3E7-4EC4-8B0D-EF1DA355A690} = {94FCD7E5-8FB3-402A-B757-798F205D7860}
+		{5E7B6F27-BA07-42B2-9B09-E723B3D7A766} = {0AC746CB-8BFA-4872-A4B6-A90DE6325361}
+		{6809D8F1-D29B-4FBF-B907-6F6C322025C4} = {5E7B6F27-BA07-42B2-9B09-E723B3D7A766}
+	EndGlobalSection
+EndGlobal
