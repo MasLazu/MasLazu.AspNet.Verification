@@ -20,7 +20,7 @@ public class VerificationPurposePropertyMap : IEntityPropertyMap<VerificationPur
 
     public Expression<Func<VerificationPurpose, object>> Get(string property)
     {
-        if (_map.TryGetValue(property, out Expression<Func<VerificationPurpose, object>> expr))
+        if (_map.TryGetValue(property, out Expression<Func<VerificationPurpose, object>>? expr))
         {
             return expr;
         }

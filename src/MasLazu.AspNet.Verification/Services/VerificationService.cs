@@ -45,12 +45,12 @@ public class VerificationService : CrudService<Domain.Entities.Verification, Ver
 
     public async Task<bool> IsCodeValidAsync(Guid userId, string code, CancellationToken ct = default)
     {
-        Domain.Entities.Verification verification = await ReadRepository.FirstOrDefaultAsync(v =>
+        Domain.Entities.Verification? verification = await ReadRepository.FirstOrDefaultAsync(v =>
             v.VerificationCode == code &&
             v.Status == VerificationStatus.Pending &&
             v.ExpiresAt > DateTimeOffset.UtcNow, ct);
 
-        return verification != null;
+        return verification is not null;
     }
 
     public async Task<VerificationDto> VerifyAsync(string code, CancellationToken ct = default)

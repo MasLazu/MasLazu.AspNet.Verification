@@ -25,7 +25,7 @@ public class VerificationPropertyMap : IEntityPropertyMap<Domain.Entities.Verifi
 
     public Expression<Func<Domain.Entities.Verification, object>> Get(string property)
     {
-        if (_map.TryGetValue(property, out Expression<Func<Domain.Entities.Verification, object>> expr))
+        if (_map.TryGetValue(property, out Expression<Func<Domain.Entities.Verification, object>>? expr))
         {
             return expr;
         }
