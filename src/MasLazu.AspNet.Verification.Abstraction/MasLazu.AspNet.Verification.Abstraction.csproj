@@ -5,7 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <PackageId>MasLazu.AspNet.Verification.Abstraction</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MasLazu</Authors>
+    <Description>Abstraction layer for ASP.NET verification system providing core interfaces and contracts.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.Application" />

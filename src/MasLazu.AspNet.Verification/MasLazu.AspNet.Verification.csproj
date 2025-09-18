@@ -5,7 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <PackageId>MasLazu.AspNet.Verification</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MasLazu</Authors>
+    <Description>Application layer for ASP.NET verification system providing business logic and services.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.EmailSender.Abstraction" />

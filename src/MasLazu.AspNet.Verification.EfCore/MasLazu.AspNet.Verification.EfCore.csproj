@@ -5,7 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <PackageId>MasLazu.AspNet.Verification.EfCore</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MasLazu</Authors>
+    <Description>Entity Framework Core implementation for ASP.NET verification system providing data access layer.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.EfCore" />

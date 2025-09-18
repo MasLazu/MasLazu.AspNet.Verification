@@ -5,7 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <PackageId>MasLazu.AspNet.Verification.Endpoint</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MasLazu</Authors>
+    <Description>REST API endpoints for ASP.NET verification system using FastEndpoints.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FastEndpoints" />
