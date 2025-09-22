@@ -4,7 +4,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="MasLazu.AspNet.Framework.Application" Version="1.0.0-preview.5" />
-    <PackageVersion Include="MasLazu.AspNet.Framework.Domain" Version="1.0.0-preview.5" />
+    <PackageVersion Include="MasLazu.AspNet.Framework.Domain" Version="1.0.0-preview.8" />
     <PackageVersion Include="FastEndpoints" Version="7.0.1" />
     <PackageVersion Include="MasLazu.AspNet.Framework.Endpoint" Version="1.0.0-preview.5" />
     <PackageVersion Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
