@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.Application" />
+    <PackageReference Include="MasLazu.AspNet.Framework.Domain" VersionOverride="1.0.0-preview.8" />
   </ItemGroup>
 
 </Project>
