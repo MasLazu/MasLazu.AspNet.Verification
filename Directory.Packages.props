@@ -11,6 +11,6 @@
     <PackageVersion Include="MassTransit" Version="8.5.2" />
     <PackageVersion Include="MasLazu.AspNet.EmailSender.Abstraction" Version="1.0.0-preview.1" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
-    <PackageVersion Include="MasLazu.AspNet.Framework.EfCore" Version="1.0.0-preview.5" />
+    <PackageVersion Include="MasLazu.AspNet.Framework.EfCore" Version="1.0.0-preview.8" />
   </ItemGroup>
 </Project>
