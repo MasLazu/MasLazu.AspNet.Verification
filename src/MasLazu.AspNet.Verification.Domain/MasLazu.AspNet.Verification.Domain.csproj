@@ -5,6 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <PackageId>MasLazu.AspNet.Verification.Domain</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MasLazu</Authors>
+    <Description>Domain layer for ASP.NET verification system providing entities and domain logic.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +18,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasLazu.AspNet.Verification.Abstraction\MasLazu.AspNet.Verification.Abstraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
