@@ -9,9 +9,7 @@ public class CreateVerificationPurposeRequestValidator : AbstractValidator<Creat
     {
         RuleFor(x => x.Code)
             .NotEmpty()
-            .MaximumLength(50)
-            .Matches(@"^[A-Z_]+$")
-            .WithMessage("Code is required, must not exceed 50 characters, and should contain only uppercase letters and underscores.");
+            .MaximumLength(50);
 
         RuleFor(x => x.Name)
             .NotEmpty()
