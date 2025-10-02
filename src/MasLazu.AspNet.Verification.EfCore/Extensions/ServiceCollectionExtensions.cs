@@ -3,6 +3,7 @@ using MasLazu.AspNet.Framework.EfCore.Repositories;
 using MasLazu.AspNet.Verification.EfCore.Data;
 using Microsoft.Extensions.DependencyInjection;
 using MasLazu.AspNet.Verification.Domain.Entities;
+using MasLazu.AspNet.Framework.EfCore.Data;
 
 namespace MasLazu.AspNet.Verification.EfCore.Extensions;
 
@@ -14,6 +15,8 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IReadRepository<Domain.Entities.Verification>, ReadRepository<Domain.Entities.Verification, VerificationReadDbContext>>();
         services.AddScoped<IRepository<VerificationPurpose>, Repository<VerificationPurpose, VerificationDbContext>>();
         services.AddScoped<IReadRepository<VerificationPurpose>, ReadRepository<VerificationPurpose, VerificationReadDbContext>>();
+
+        services.AddScoped<BaseDbContext>(sp => sp.GetRequiredService<VerificationDbContext>());
 
         return services;
     }
