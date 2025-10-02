@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Test Frameworks -->
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    
+    <!-- Mocking -->
+    <PackageReference Include="Moq" />
+    
+    <!-- Assertions -->
+    <PackageReference Include="FluentAssertions" />
+    
+    <!-- Database Testing -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    
+    <!-- Fake Data -->
+    <PackageReference Include="Bogus" />
+    <PackageReference Include="AutoFixture" />
+    <PackageReference Include="AutoFixture.Xunit2" />
+    
+    <!-- FluentValidation Testing -->
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Project References -->
+    <ProjectReference Include="..\..\src\MasLazu.AspNet.Verification\MasLazu.AspNet.Verification.csproj" />
+    <ProjectReference Include="..\..\src\MasLazu.AspNet.Verification.Abstraction\MasLazu.AspNet.Verification.Abstraction.csproj" />
+    <ProjectReference Include="..\..\src\MasLazu.AspNet.Verification.Domain\MasLazu.AspNet.Verification.Domain.csproj" />
+    <ProjectReference Include="..\..\src\MasLazu.AspNet.Verification.EfCore\MasLazu.AspNet.Verification.EfCore.csproj" />
+    <ProjectReference Include="..\..\src\MasLazu.AspNet.Verification.Endpoint\MasLazu.AspNet.Verification.Endpoint.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="xunit.runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
